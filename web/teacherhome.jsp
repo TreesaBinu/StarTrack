@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="style1.css">
+        <link type="text/css" rel="stylesheet" href="./css/style1.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
     <body id="Student Home">
@@ -39,35 +39,17 @@
                 %>
                     <div class="userdetails"><h2><%=user%></h2></div>
                     <div class="details">
-                        <p>You  can use this Student Web Page to upload you achievements during the academic 
-                            year with proper documents.You can also view your Exam Results and the total grade percentage 
-                            of your academic year.</p>
+                        <h3>You can use this website for the following:</h3>
+                            <ul>
+                            <li>To view and delete the achievements of a student after proper cross checking.</li>
+                            <li>Marks of students can be updated.</li>
+                            <li>Marks can be viewed of individual students and of the whole class.</li>
+                            <li>The overall marks of a class can be calculated in the order of their grades</li>
+                            <li>The General Proficiency holders can be determined</li>
+                        </ul>
                     </div>
                 </div>
-                    <div>
-                        <table border="1" cellpadding="2">
-                            <thead>
-                                <tr>
-                                    <th><select>
-                                            <option></option>
-                                        </select></th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
         <footer class="text-center">
             <br/>
             <p> © Copyright Stella Maris College <br/> 17, Cathedral Road,Chennai - 600086. </p>
